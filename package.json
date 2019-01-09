@@ -1,0 +1,21 @@
+{
+  "name": "hell_node",
+  "version": "1.0.0",
+  "description": "Reverse shell built in node",
+  "scripts": {
+    "build": "pkg hell_node",
+    "build-win32": "pkg -t node10-win-x86 hell_node",
+    "start": "./hell_node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iovis9/hell_node.git"
+  },
+  "author": "David Marchante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iovis9/hell_node/issues"
+  },
+  "homepage": "https://github.com/iovis9/hell_node#readme"
+}
